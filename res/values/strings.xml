@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chain of World</string>
+    <string name="level">目前等級是 : LV. %d (※ MAX = 5)</string>
+    <string name="intimacy">目前信任度 : %d %%(※ MAX = 100)</string>
+    <string name="power">目前能量是 : %d W</string>
+    <string name="money">目前金錢是 : %d NT$</string>
+    <string name="sport">超級打工仔</string>
+    <string name="shop">金牌紀錄王</string>
+    <string name="alert_title">按我開始選擇</string>
+    <string name="alert_cancel">取消</string>
+    <string name="alert_title_2">破關訊息</string>
+    <string name="alert_message_2">是否重新遊戲?</string>
+    <string name="alert_ok_2">確認</string>
+    <string name="alert_cancel_2">取消</string>
+    <string name="power_title">系統提醒</string>
+    <string name="power_message_1">寵物沒有體力了!</string>
+    <string name="power_message_2">寵物已經累倒了!</string>
+    <string name="power_ok">確認</string>
+    <string name="money_title">系統提醒</string>
+    <string name="money_message_1">寵物沒有積蓄了!</string>
+    <string name="money_message_2">寵物已經負債了!</string>
+    <string name="money_ok">確認</string>
+    <string name="btnStart">開始</string>
+    <string name="btnExit">離開</string>
+    <string name="btnTeach">說明</string>
+    <string name="btnAbout">關於</string>
+    <string name="game1_title">電力公司實習</string>
+    <string name="game1_btn_left">學知識</string>
+    <string name="game1_btn_center">送出答案</string>
+    <string name="game1_btn_right">下一題</string>
+    <string name="fence_pet">===== 寵物成就 =====</string>
+    <string name="fence_game">===== 遊戲成就 =====</string>
+
+    <array name="item_sport_dialog">
+        <item>電力公司實習</item>
+        <item>限時救援行動</item>
+    </array>
+
+    <string name="story">遙遠的未來有群能夠產生能量的生物，簡稱能源寶寶，種類至今仍沒有確切的數據，探險家與研究者們持續探索中。當星球上的能源逐漸缺乏，人類開始與能源寶寶同心協力一起奮鬥，身為朋友身為同伴，彼此心靈相通，共同生活在一起，歡迎來到連鎖世界CHAIN OF WORLD！！！！！</string>
+    <string name="writer">===== 作者資訊 =====\n國立宜蘭大學資訊工程研究所\nRFID實驗室：沈品吟(SH.)\n
+        	===== 其他資訊 =====\n1.背景音樂來源為\n\t日劇Rich Man、Poor Woman\n2.限時救援行動小遊戲\n\t部分參考耐心球程式碼</string>
+    <string name="teach_main">===== 操作教學 =====\n
+        ----- 能源寶寶 -----\n\n
+		操作介面↑↑↑\n有等級、信任、能量、金錢\n
+		1.等級：\n\tMAX等級為5\n
+		2.信任：\n\tMAX為100，超過立即進化\n
+		3.能量：\n\t用能量可以前往打工賺錢\n
+		4.金錢：\n\t用金錢可以購買能量方塊\n\n
+        ----- 能量方塊 -----\n\n
+                    ＊能量方塊位置：\n\n
+		核能\t火力\t水力\n
+		風力\t太陽\t潮汐\n\n
+                    ＊能量方塊性質：\n\n
+		1.核能：能量 +793/價格 112\n
+		(能量高/價格低/減少信任5)\n
+		2.火力：能量 +520/價格 89\n
+		(能量高/價格低/減少信任3)\n
+		3.水力：能量 +254/價格 171\n
+		(能量中/價格中/增加信任4)\n
+		4.風力：能量 +201/價格 403\n
+		(能量低/價格高/增加信任5)\n
+		5.太陽：能量 +403/價格 2381\n
+		(能量低/價格高/增加信任7)\n
+		6.潮汐：能量 +402/價格 171\n
+		(能量低/價格中/增加信任3)\n\n
+		數值是根據真實資料作等比例調整的喔！\n\n
+        ----- 超級打工仔 -----\n\n
+        1.電力公司實習\n\t
+                    遊戲內有教學\n
+        2.限時救援行動\n\t
+                    遊戲內有教學\n\n
+        ----- 金牌紀錄王 -----\n\n
+                    每階段皆有對應的成就可拿\n
+        Ex.等級1：我是一隻小小蟲！</string>
+    <string name="teach_game1">Step1：請選擇工作地點\nStep2：回答指定的題目\n
+        ===== 遊戲規則 =====\n
+        1.回答正確：\n\t信任 +10;金錢 +2000;能量 -2000\n
+        2.回答錯誤：\n\t信任 -10;金錢 -2000;能量 -2000\n
+        3.沒有回答：\n\t信任 -5;金錢 -1000;能量 -1000\n
+        4.學知識：\n\t金錢 +50\n
+        5.回答後請按送出答案\n
+        6.接著按學知識或是下一題\n
+        7.完成後就可以領取獎勵\n
+        8.從MENU中選擇離開\n
+        9.注意！工作中請勿按返回</string>
+    <string name="teach_game2">遊戲時間：60秒\n閃電數量：50個\n洞穴數量：20個\n
+                   遊戲方式：上下左右搖動手機讓閃電進入洞穴中\n
+        ===== 遊戲規則 =====\n
+        1.閃電進洞數量大於45個：\n\t信任 +閃電進洞數 *2\n\t金錢 +閃電進洞數 *200\n\t能量 -500\n
+        2.閃電進洞數量15至45個：\n\t信任 +閃電進洞數\n\t金錢 +閃電進洞數 *100\n\t能量 -700\n
+        3.閃電進洞數量小於15個：\n\t信任 +閃電進洞數\n\t金錢 +閃電進洞數 *100\n\t能量 -1000\n</string>
+    <string name="gameFinished">===== 破關訊息 =====\n能源寶寶進化至最高等級囉！\n</string>
+    <string name="quit">離開</string>
+    <string name="about">教學</string>
+    <string name="highscore">高分</string>
+    <string name="anonymous">匿名</string>
+    <string name="tips_high_score">恭喜你創造一個高分，請輸入大名</string>
+    <string name="info_email">郵件</string>
+    <string name="info_author">作者</string>
+    <string name="info_weibo">微博</string>
+    <string name="info_game">遊戲玩法</string>
+    <string name="info_project_home">code.google.com/p/android-ball-world</string>
+
+</resources>

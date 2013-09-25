@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrand_pet"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#30000000"
+        android:text="@string/level"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtIntimacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtLevel"
+        android:layout_below="@+id/txtLevel"
+        android:text="@string/intimacy"
+        android:textColor="@android:color/black"
+        android:background="#30000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtIntimacy"
+        android:layout_below="@+id/txtIntimacy"
+        android:text="@string/power"
+        android:textColor="@android:color/black"
+        android:background="#30000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtPower"
+        android:layout_below="@+id/txtPower"
+        android:text="@string/money"
+        android:textColor="@android:color/black"
+        android:background="#30000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imgBtnWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/wind" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imgBtnWind"
+        android:src="@drawable/sun" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imgBtnSun"
+        android:src="@drawable/sea" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAtom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgBtnWind"
+        android:layout_toLeftOf="@+id/imgBtnSun"
+        android:src="@drawable/atom" />
+
+    <ImageButton
+        android:id="@+id/imgBtnFire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgBtnAtom"
+        android:layout_toLeftOf="@+id/imgBtnSea"
+        android:src="@drawable/fire" />
+
+    <ImageButton
+        android:id="@+id/imgBtnWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgBtnSea"
+        android:layout_alignLeft="@+id/imgBtnSea"
+        android:src="@drawable/water" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imgBtnSea"
+        android:text="@string/shop" />
+
+    <Button
+        android:id="@+id/btnWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgBtnSea"
+        android:layout_alignLeft="@+id/btnRecord"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imgBtnWater"
+        android:text="@string/sport" />
+
+	<ImageView
+	    android:id="@+id/frame_image"
+	    android:layout_width="140dp"
+	    android:layout_height="140dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true" />
+
+</RelativeLayout>
